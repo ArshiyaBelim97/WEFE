@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="VO.register_vo" table="insert_final">
+<id name="CID" type="int" column="CID">
+	<generator class="increment" />
+</id>
+
+<property column="First_Name" name="First_Name" type="string" />
+<property column="Last_Name" name="Last_Name" type="string" />
+<property column="User_Name" name="User_name" type="string" />
+<property column="Password" name="Password" type="string" />
+
+</class>
+</hibernate-mapping>
